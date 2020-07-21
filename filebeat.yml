@@ -1,0 +1,6 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - D:\Projects\ELK\apache_logs.log
+output.logstash:
+  hosts: ["localhost:5044"]
